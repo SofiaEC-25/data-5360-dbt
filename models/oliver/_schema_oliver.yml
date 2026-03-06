@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: oliver_dim_customer
+    description: "Oliver’s sweets and drinks Customer Dimension"
+  - name: oliver_dim_employee
+    description: "Oliver’s sweets and drinks Employee Dimension"
+  - name: oliver_dim_date
+    description: "Oliver’s sweets and drinks Date Dimension"
+  - name: oliver_dim_product
+    description: "Oliver’s sweets and drinks Product Dimension"
+  - name: oliver_dim_store
+    description: "Oliver’s sweets and drinks Store Dimension"
+  - name: fact_sales
+    description: "Oliver’s sweets and drinks Sales Fact"
