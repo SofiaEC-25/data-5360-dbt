@@ -13,3 +13,11 @@ models:
     description: "Oliver’s sweets and drinks Store Dimension"
   - name: fact_sales
     description: "Oliver’s sweets and drinks Sales Fact"
+  - name: stg_employee_certifications
+    description: 
+      Staging model for employee certifications. Each record contains an employee and information on the certification
+      they have recieved.
+  - name: fact_certification
+    description: 
+      A fact table recording individual certification achievements by employees. 
+      The grain of this fact is one row per employee per certification per date awarded.
