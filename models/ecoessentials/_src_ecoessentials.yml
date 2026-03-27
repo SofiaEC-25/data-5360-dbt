@@ -1,0 +1,25 @@
+version: 2
+
+
+sources:
+ - name: ecoessentials_landing
+   database: sofiaedwardscardon
+   schema: ECOESSENTIALS_ECOESSENTIALS_TRANSACTIONAL_DB
+   tables:
+     - name: customer
+     - name: order_tbl
+       identifier: '"ORDER"'
+     - name: order_line
+     - name: product
+     - name: promotional_campaign
+
+
+ - name: ecoemails_landing
+   database: sofiaedwardscardon
+   schema: SALESFORCE_MARKETING
+   tables:
+     - name: marketingemails
+  
+
+
+
